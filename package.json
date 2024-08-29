@@ -2,9 +2,10 @@
   "name": "wordle",
   "version": "1.0.0",
   "description": "simple game with nodejs",
+  "type": "module",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/danielacalle08/wordle_nodejs/issues"
   },
-  "homepage": "https://github.com/danielacalle08/wordle_nodejs#readme"
+  "homepage": "https://github.com/danielacalle08/wordle_nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
