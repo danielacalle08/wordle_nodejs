@@ -1,0 +1,22 @@
+{
+  "name": "wordle",
+  "version": "1.0.0",
+  "description": "simple game with nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/danielacalle08/wordle_nodejs.git"
+  },
+  "keywords": [
+    "wordle"
+  ],
+  "author": "Daniela Calle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielacalle08/wordle_nodejs/issues"
+  },
+  "homepage": "https://github.com/danielacalle08/wordle_nodejs#readme"
+}
